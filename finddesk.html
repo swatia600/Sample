@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotdesk</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="assets/css/util.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+</head>
+
+<body>
+    <div class="row register-form">
+        <div class="col-md-8 col-md-offset-2">
+            <form class="form-horizontal custom-form" method ="post" action="booking.php">
+                <h1>Give Your Preference</h1>
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="name-input-field">FROM-TO DATE</label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input id = "from_date" name = "from_date" class="form-control" type="date">
+                        <input id = "to_date" name = "to_date" class="form-control" type="date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="email-input-field">FLOOR </label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <div class="dropdown">
+                          <select id="floor" name="floor">
+							<optgroup label="FLOOR">
+							  <option value="1">1</option>
+							  <option value="2">2</option>
+							  <option value="3">3</option>
+							  <option value="4">4</option>
+							  <option value="5">5</option>
+							  <option value="6">6</option>
+							  <option value="7">7</option>
+							  <option value="8">8</option>
+							</optgroup>
+							</select>  
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group"></div>
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="repeat-pawssword-input-field">ZONE </label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <div class="dropdown">
+						<select id="zone" name="zone">
+							<optgroup label="Zone">
+							  <option value="A">A</option>
+							  <option value="B">B</option>
+							  <option value="C">C</option>
+							  <option value="D">D</option>
+							  <option value="E">E</option>
+							  <option value="F">F</option>
+							  <option value="G">G</option>
+							</optgroup>
+							</select>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+				<input type = "submit" value = "submit" class = "btn btn-default submit-button">
+                <!--<div class="form-group"></div><a class="btn btn-default submit-button" role="button" href="booking.php">View Availability</a></form>
+        </div>-->
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

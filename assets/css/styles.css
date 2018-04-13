@@ -1,0 +1,30 @@
+nav.navbar.navbar-default.custom-header{
+}
+
+body{
+  background-image:url(images/home.jpg) no-repeat center;
+}
+
+body{
+}
+
+body{
+  background-image:url(../../assets/img/home.jpg);
+}
+
+body{
+  background-image:url('../../assets/img/home.jpg');
+}
+
+body{
+  background-image:url('../../assets/img/home.jpg');
+}
+
+div.col-lg-7.col-md-7.col-md-offset-2{
+  background-image:url('../../assets/img/bg-01.jpg');
+}
+
+h1{
+  font-size:55px;
+}
+

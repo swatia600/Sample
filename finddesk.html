@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,21 +29,29 @@
                 <h1>Give Your Preference</h1>
                 <div class="form-group">
                     <div class="col-sm-4 label-column">
-                        <label class="control-label" for="name-input-field">FROM-TO DATE</label>
+                        <label class="control-label" for="name-input-field">FROM DATE</label>
                     </div>
                     <div class="col-sm-6 input-column">
                         <input id = "from_date" name = "from_date" class="form-control" type="date">
+                    </div>
+					
+					<div class="col-sm-4 label-column">
+                        <label class="control-label" for="name-input-field">TO DATE</label>
+                    </div>
+                    <div class="col-sm-6 input-column">
                         <input id = "to_date" name = "to_date" class="form-control" type="date">
                     </div>
                 </div>
+				
                 <div class="form-group">
                     <div class="col-sm-4 label-column">
-                        <label class="control-label" for="email-input-field">FLOOR </label>
+                        <label class="control-label" for="email-input-field">FLOOR</label>
                     </div>
                     <div class="col-sm-6 input-column">
                         <div class="dropdown">
                           <select id="floor" name="floor">
 							<optgroup label="FLOOR">
+							  <option value="@" selected>None</option>
 							  <option value="1">1</option>
 							  <option value="2">2</option>
 							  <option value="3">3</option>
@@ -58,6 +65,7 @@
                         </div>
                     </div>
                 </div>
+				
                 <div class="form-group"></div>
                 <div class="form-group">
                     <div class="col-sm-4 label-column">
@@ -65,19 +73,18 @@
                     </div>
                     <div class="col-sm-6 input-column">
                         <div class="dropdown">
-						<select id="zone" name="zone">
-							<optgroup label="Zone">
-							  <option value="A">A</option>
-							  <option value="B">B</option>
-							  <option value="C">C</option>
-							  <option value="D">D</option>
-							  <option value="E">E</option>
-							  <option value="F">F</option>
-							  <option value="G">G</option>
-							</optgroup>
+							<select id="zone" name="zone">
+								<optgroup label="Zone">
+									<option value="@" selected>None</option>
+									<option value="A">A</option>
+									<option value="B">B</option>
+									<option value="C">C</option>
+									<option value="D">D</option>
+									<option value="E">E</option>
+									<option value="F">F</option>
+									<option value="G">G</option>
+								</optgroup>
 							</select>
-                            
-                            
                         </div>
                     </div>
                 </div>
@@ -88,5 +95,4 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
-
 </html>
